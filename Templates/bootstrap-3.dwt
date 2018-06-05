@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- TemplateParam name="siteName" type="text" value="Boiler" -->
+	<!-- TemplateParam name="pageName" type="text" value="boiler-1" -->
+	<!-- TemplateParam name="activeSec1" type="text" value="active" -->
+	<!-- TemplateParam name="activeSec2" type="text" value="non-active" -->
+	<!-- TemplateParam name="activeSec3" type="text" value="non-active" -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="../styles/boiler-bs3/boiler.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"/>
+
+	<title>@@(siteName)@@ | Design System</title>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">@@(siteName)@@</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="@@(activeSec1)@@"><a href="index.html#top">Home</a></li>
+					<li class="dropdown @@(activeSec2)@@">
+						<a href="css.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CSS <span class="fas fa-caret-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="css.html#typography">Typography</a></li>							
+							<li><a href="css.html#tables">Tables</a></li>							
+							<li><a href="css.html#buttons">Buttons</a></li>
+							<li><a href="css.html#images">Images</a></li>
+							<li><a href="css.html#forms">Forms</a></li>							
+						</ul>
+					</li>					
+					<li class="dropdown @@(activeSec3)@@">
+						<a href="components.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Components <span class="fas fa-caret-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="components.html#navigation">Navigation</a></li>
+							<li><a href="components.html#labels">Labels &amp; Badges</a></li>
+							<li><a href="components.html#alerts">Alerts</a></li>
+							<li><a href="components.html#progress">Progress Bars</a></li>							
+							<li><a href="components.html#jumbotron">Jumbotron</a></li>							
+							<li><a href="components.html#cards">Cards</a></li>
+							<li><a href="components.html#media">Media</a></li>
+							<li><a href="components.html#panels">Panels &amp; Wells</a></li>
+							<li><a href="components.html#modals">Modals</a></li>
+							<li><a href="css.html#tooltips">Tooltips &amp; Popovers</a></li>
+							<li><a href="components.html#carousel">Carousel</a></li>
+						</ul>
+					</li>					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<a name="top" id="top"></a>
+	<div class="container page@@(pageName)@@" role="main">
+		<br/>
+		<br/>
+		<br/>
+	<!-- TemplateBeginEditable name="body" -->
+	<!-- TemplateEndEditable -->
+		<br/>
+		<br/>
+		<br/>
+	</div>
+	<footer class="bg-primary">
+		<div class="container">
+			<br/>
+			<br/>
+				<p class="pull-right"><a href="#top" class="btn btn-default btn-xs">Back to top</a></p>
+				<p class="text-reverse">&copy; 2018 @@(siteName)@@</p>
+			<br/>
+			<br/>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../scripts/bootstrap_3-3/bootstrap.min.js"></script>
+</body>
+</html>

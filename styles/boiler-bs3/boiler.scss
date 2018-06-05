@@ -1,0 +1,61 @@
+@import "../bootstrap_3-3/_bootstrap";
+@import "_flex";
+
+.label {
+	&-secondary {
+		background-color: $brand-secondary;
+	}
+	&-tertiary {
+		background-color: $brand-tertiary;
+	}
+	&-darker {
+		background-color: $gray-darker;
+	}
+	&-dark {
+		background-color: $gray-dark;
+	}
+	&-medium {
+		background-color: $gray;
+	}
+	&-light {
+		background-color: $gray-light;
+	}
+	&-lighter {
+		background-color: $gray-lighter;
+		color: $gray-darker;
+	}
+	&-success {
+		background-color: $brand-success;
+	}
+	&-info {
+		background-color: $brand-info;
+	}
+	&-warning {
+		background-color: $brand-warning;
+	}
+	&-danger {
+		background-color: $brand-danger;
+	}
+	&.color-demo {
+		padding: 15px;
+		text-align: center;
+	}
+}
+.text-secondary {
+	color: $brand-secondary;
+}
+.text-tertiary {
+	color: $brand-tertiary;
+}
+.text-danger {
+	color: $brand-danger;
+}
+.text-reverse {
+	color: $gray-lighter;
+}
+.font-serif {
+	font-family: $font-family-serif;
+}
+.font-sans {
+	font-family: $font-family-sans-serif;
+}
