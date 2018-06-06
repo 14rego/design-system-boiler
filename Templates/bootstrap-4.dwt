@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- TemplateParam name="siteName" type="text" value="Boiler BS4" -->
+	<!-- TemplateParam name="pageName" type="text" value="boiler-1" -->
+	<!-- TemplateParam name="activeSec1" type="text" value="active" -->
+	<!-- TemplateParam name="activeSec2" type="text" value="non-active" -->
+	<!-- TemplateParam name="activeSec3" type="text" value="non-active" -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="../styles/boiler/bootstrap4.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"/>
+
+	<title>@@(siteName)@@ | Design System</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">@@(siteName)@@ Design System</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item @@(activeSec1)@@">
+					<a class="nav-link" href="index.html#top">Home</a>
+				</li>
+				<li class="nav-item dropdown @@(activeSec2)@@">
+					<a class="nav-link dropdown-toggle" href="css.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CSS</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+						<a class="dropdown-item" href="css.html#typography">Typography</a>						
+						<a class="dropdown-item" href="css.html#tables">Tables</a>			
+						<a class="dropdown-item" href="css.html#buttons">Buttons</a>
+						<a class="dropdown-item" href="css.html#images">Images</a>
+						<a class="dropdown-item" href="css.html#forms">Forms</a>				
+					</div>
+				</li>
+				<li class="nav-item dropdown @@(activeSec3)@@">
+					<a class="nav-link dropdown-toggle" href="components.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+						<a class="dropdown-item" href="components.html#navigation">Navigation</a>
+						<a class="dropdown-item" href="components.html#badges">Badges</a>
+						<a class="dropdown-item" href="components.html#alerts">Alerts</a>
+						<a class="dropdown-item" href="components.html#progress">Progress Bars</a>						
+						<a class="dropdown-item" href="components.html#jumbotron">Jumbotron</a>						
+						<a class="dropdown-item" href="components.html#cards">Cards</a>
+						<a class="dropdown-item" href="components.html#media">Media</a>
+						<a class="dropdown-item" href="components.html#modals">Modals</a>
+						<a class="dropdown-item" href="css.html#tooltips">Tooltips &amp; Popovers</a>
+						<a class="dropdown-item" href="components.html#carousel">Carousel</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<a name="top" id="top"></a>
+	<div class="container page-@@(pageName)@@" role="main">
+		<br/>
+	<!-- TemplateBeginEditable name="body" -->
+	<!-- TemplateEndEditable -->
+		<br/>
+	</div>
+	<footer class="bg-primary">
+		<div class="container">
+			<br/>
+			<p class="float-right"><a href="#top" class="btn btn-secondary btn-xs">Back to top</a></p>
+			<p class="text-reverse">&copy; 2018 @@(siteName)@@</p>
+			<br/>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="../scripts/bootstrap_4-1/bootstrap.js"></script>
+</body>
+</html>

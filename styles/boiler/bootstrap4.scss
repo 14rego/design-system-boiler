@@ -1,0 +1,103 @@
+@import "../bootstrap_4-1/bootstrap";
+
+/*Flex Grid*/
+.grid,
+.grid-item {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+.grid-item {
+	display: flex; 
+	width: 100%;
+}
+@include media-breakpoint-up(sm) {
+	.grid-item {
+		width: 48%;
+		margin: 0 2% 2% 0;
+	}
+}
+@include media-breakpoint-up(md) {
+	.grid-item {
+		width: 32%;
+		margin: 0 1.33% 1.33% 0;
+	}
+}
+.grid-content {
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	width: 100%;
+}
+.grid-content p {
+	flex: 1 0 auto;
+}
+
+.color-demo {
+	padding: 15px;
+	text-align: center;
+	
+	&.color {
+		&-primary {
+			background-color: $primary;
+		}
+		&-secondary {
+			background-color: $secondary;
+		}
+		&-tertiary {
+			background-color: $tertiary;
+		}
+		&-darker {
+			background-color: $gray-900;
+			color: $gray-100;
+		}
+		&-dark {
+			background-color: $gray-700;
+			color: $gray-100;
+		}
+		&-medium {
+			background-color: $gray-500;
+		}
+		&-light {
+			background-color: $gray-300;
+		}
+		&-lighter {
+			background-color: $gray-100;
+			color: $gray-900;
+		}
+		&-success {
+			background-color: $success;
+		}
+		&-info {
+			background-color: $info;
+		}
+		&-warning {
+			background-color: $warning;
+		}
+		&-danger {
+			background-color: $danger;
+		}
+	}
+}
+.text-secondary {
+	color: $secondary;
+}
+.text-tertiary {
+	color: $tertiary;
+}
+.text-danger {
+	color: $danger;
+}
+.text-reverse {
+	color: $gray-100;
+}
+.font-serif {
+	font-family: $font-family-serif;
+}
+.font-sans {
+	font-family: $font-family-sans-serif;
+}
